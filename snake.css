@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+}
+header #game_btn{
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  padding: 10px;
+  background: #fa4;
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+header #game_btn:hover{
+  background: #faa;
+}
+header p{
+  font-size: 25px;
+  margin: 20px auto;
+}
+canvas{
+  display: block;
+  border: 1px dashed #000;
+  margin: 4px auto;
+}
